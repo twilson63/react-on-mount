@@ -12,9 +12,13 @@ lifecycle method, so React On Mount is a higher order function that lets you
 access the props during mount and use them to perform async actions and dispatch
 the results to redux.
 
+## Install
+
+`npm install react-on-mount`
+
 ## Example
 
-```
+```js
 import onMount from 'react-on-mount'
 
 const ShowWidget = props => {
