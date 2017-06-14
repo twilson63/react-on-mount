@@ -1,7 +1,7 @@
 {
-  "name": "before-render",
+  "name": "react-on-mount",
   "version": "1.0.0",
-  "description": "",
+  "description": "React On Mount is a higher order component that provides the ability to wrap a component and pass in a function handler for the componentDidMount lifecycle method.",
   "main": "dist/bundle.cjs.js",
   "module": "dist/bundle.es.js",
   "scripts": {
@@ -19,5 +19,13 @@
   },
   "dependencies": {
     "react": "^15.6.0"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/twilson63/react-on-mount.git"
+  },
+  "bugs": {
+    "url": "https://github.com/twilson63/react-on-mount/issues"
+  },
+  "homepage": "https://github.com/twilson63/react-on-mount#readme"
 }
